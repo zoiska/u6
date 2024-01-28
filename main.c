@@ -74,7 +74,9 @@ void copy(int start[], int num, int ziel[]){
 }
 
 void aufg4a(){
-    int mehrdim[3][5] = {' ', '#', '#', '#', ' ', '#', ' ', ' ', ' ', '#', ' ', '#', '#', '#', ' '};
+    int mehrdim[3][5] = {' ', '#', '#', '#', ' ',
+                         '#', ' ', ' ', ' ', '#',
+                         ' ', '#', '#', '#', ' '};
     for(int j = 0; j <= 2; j++){
         for(int k = 0; k <= 4; k++){
             printf("%c", mehrdim[j][k]);
@@ -84,7 +86,9 @@ void aufg4a(){
 }
 
 void aufg4b(){
-    int mehrdim[3][5] = {' ', '#', '#', '#', ' ', '#', ' ', ' ', ' ', '#', ' ', '#', '#', '#', ' '};
+    int mehrdim[3][5] = {' ', '#', '#', '#', ' ',
+                         '#', ' ', ' ', ' ', '#',
+                         ' ', '#', '#', '#', ' '};
     for(int j = 0; j <= 4; j++){
         for(int k = 0; k <= 2; k++){
             printf("%c", mehrdim[k][j]);
